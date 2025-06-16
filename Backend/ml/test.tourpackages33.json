@@ -1,0 +1,3173 @@
+[{
+  "_id": {
+    "$oid": "67e7b8e24d627d2834e4d17b"
+  },
+  "name": "Beach Paradise Package",
+  "description": "A 7-day coastal getaway exploring Sri Lanka's southern beaches, wildlife, and cultural gems.",
+  "duration": 7,
+  "packageImage": "https://media.istockphoto.com/id/531216313/photo/idyllic-beach-sri-lanka.jpg?s=612x612&w=0&k=20&c=Zg3i_AyKqLogTq3oQG5tcsn-Wr7MiLsic54eeCRQdK0=",
+  "district": [
+    "Galle",
+    "Matara",
+    "Hambantota"
+  ],
+  "places": [
+    {
+      "name": "Mirissa Beach",
+      "description": "Famous for whale watching and golden sunsets.",
+      "placeType": [
+        "Beach",
+        "Wildlife"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 70
+        },
+        "hobbies": [
+          "Whale Watching",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Seasickness"
+          ],
+          "specialFacilities": [
+            "Whale Watching Boats"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4563,
+          5.9467
+        ]
+      },
+      "images": [
+        "https://travelrebels.com/wp-content/uploads/2024/03/secret-beach-mirissa-1.jpg"
+      ]
+    },
+    {
+      "name": "Unawatuna Beach",
+      "description": "Crescent-shaped bay with coral reefs and beachside cafes.",
+      "placeType": [
+        "Beach",
+        "Snorkeling"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 65
+        },
+        "hobbies": [
+          "Swimming",
+          "Relaxation"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Non-swimmers (deep areas)"
+          ],
+          "specialFacilities": [
+            "Lifeguards"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.2503,
+          6.0167
+        ]
+      },
+      "images": [
+        "https://example.com/unawatuna.jpg"
+      ]
+    },
+    {
+      "name": "Jungle Beach",
+      "description": "Secluded cove accessible via a forest trail.",
+      "placeType": [
+        "Beach",
+        "Adventure"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 12,
+          "max": 60
+        },
+        "hobbies": [
+          "Hiking",
+          "Snorkeling"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.2364,
+          6.0189
+        ]
+      },
+      "images": [
+        "https://example.com/jungle-beach.jpg"
+      ]
+    },
+    {
+      "name": "Dalawella Beach",
+      "description": "Known for its iconic palm-fringed rope swing.",
+      "placeType": [
+        "Beach",
+        "Photography"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 8,
+          "max": 70
+        },
+        "hobbies": [
+          "Swimming",
+          "Instagram"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Swing Rentals"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.2761,
+          6.0036
+        ]
+      },
+      "images": [
+        "https://example.com/dalawella.jpg"
+      ]
+    },
+    {
+      "name": "Hiriketiya Beach",
+      "description": "Horseshoe-shaped bay perfect for surfing beginners.",
+      "placeType": [
+        "Beach",
+        "Surfing"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 15,
+          "max": 65
+        },
+        "hobbies": [
+          "Surfing",
+          "Yoga"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Non-swimmers"
+          ],
+          "specialFacilities": [
+            "Surf Schools"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7606,
+          5.9644
+        ]
+      },
+      "images": [
+        "https://example.com/hiriketiya.jpg"
+      ]
+    },
+    {
+      "name": "Polhena Beach",
+      "description": "Protected reef beach ideal for safe swimming.",
+      "placeType": [
+        "Beach",
+        "Family"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 3,
+          "max": 70
+        },
+        "hobbies": [
+          "Snorkeling",
+          "Relaxation"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Shallow Lagoons"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.5358,
+          5.9486
+        ]
+      },
+      "images": [
+        "https://example.com/polhena.jpg"
+      ]
+    },
+    {
+      "name": "Tangalle Beach",
+      "description": "Long stretch of untouched sand with dramatic rock formations.",
+      "placeType": [
+        "Beach",
+        "Romantic"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 70
+        },
+        "hobbies": [
+          "Sunbathing",
+          "Walking"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Strong Currents (seasonal)"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7913,
+          6.0231
+        ]
+      },
+      "images": [
+        "https://example.com/tangalle.jpg"
+      ]
+    },
+    {
+      "name": "Rekawa Beach",
+      "description": "Sea turtle nesting site (November–April).",
+      "placeType": [
+        "Beach",
+        "Eco-Tourism"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 8,
+          "max": 70
+        },
+        "hobbies": [
+          "Wildlife",
+          "Conservation"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Guided Night Tours"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.8264,
+          6.0392
+        ]
+      },
+      "images": [
+        "https://example.com/rekawa.jpg"
+      ]
+    },
+    {
+      "name": "Galle Fort",
+      "description": "UNESCO World Heritage Site with Dutch-colonial architecture.",
+      "placeType": [
+        "Historic",
+        "Cultural"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "History"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues (cobblestones)"
+          ],
+          "specialFacilities": [
+            "Wheelchair-Friendly Paths"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.2167,
+          6.0254
+        ]
+      },
+      "images": [
+        "https://example.com/galle-fort.jpg"
+      ]
+    },
+    {
+      "name": "Hummanaya Blowhole",
+      "description": "The only known blowhole in Sri Lanka, shooting water 25m high.",
+      "placeType": [
+        "Natural Wonder"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 8,
+          "max": 70
+        },
+        "hobbies": [
+          "Geology",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues (rocky)"
+          ],
+          "specialFacilities": [
+            "Viewing Platform"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.5906,
+          5.9917
+        ]
+      },
+      "images": [
+        "https://example.com/hummanaya.jpg"
+      ]
+    },
+    {
+      "name": "Weligama Bay",
+      "description": "Gentle waves for beginner surfers and iconic stilt fishermen.",
+      "placeType": [
+        "Beach",
+        "Surfing"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 65
+        },
+        "hobbies": [
+          "Surfing",
+          "Cultural Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Surf Schools"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4175,
+          5.9775
+        ]
+      },
+      "images": [
+        "https://example.com/weligama.jpg"
+      ]
+    },
+    {
+      "name": "Bundala National Park",
+      "description": "Ramsar wetland with flamingos, crocodiles, and migratory birds.",
+      "placeType": [
+        "Wildlife",
+        "Safari"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 6,
+          "max": 70
+        },
+        "hobbies": [
+          "Birdwatching",
+          "Photography"
+        ],
+        "climate": [
+          "Dry Zone"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Dust Allergies"
+          ],
+          "specialFacilities": [
+            "Jeep Safaris"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          81.2197,
+          6.1989
+        ]
+      },
+      "images": [
+        "https://example.com/bundala.jpg"
+      ]
+    },
+    {
+      "name": "Mawella Beach",
+      "description": "Pristine and uncrowded beach with calm waters.",
+      "placeType": [
+        "Beach",
+        "Relaxation"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 70
+        },
+        "hobbies": [
+          "Kayaking",
+          "Sunbathing"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.8258,
+          6.0514
+        ]
+      },
+      "images": [
+        "https://example.com/mawella.jpg"
+      ]
+    },
+    {
+      "name": "Koggala Beach",
+      "description": "Long sandy beach near a historic lake and cinnamon plantations.",
+      "placeType": [
+        "Beach",
+        "Cultural"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 70
+        },
+        "hobbies": [
+          "Walking",
+          "History"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3289,
+          5.9886
+        ]
+      },
+      "images": [
+        "https://example.com/koggala.jpg"
+      ]
+    },
+    {
+      "name": "Dickwella Beach",
+      "description": "Quiet beach with a nearby lighthouse and blowhole.",
+      "placeType": [
+        "Beach",
+        "Scenic"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 70
+        },
+        "hobbies": [
+          "Photography",
+          "Relaxation"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6806,
+          5.9558
+        ]
+      },
+      "images": [
+        "https://example.com/dickwella.jpg"
+      ]
+    },
+    {
+      "name": "Great Basses Reef",
+      "description": "Historic shipwrecks and vibrant coral for advanced divers.",
+      "placeType": [
+        "Diving",
+        "Adventure"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 18,
+          "max": 60
+        },
+        "hobbies": [
+          "Scuba Diving",
+          "Marine Life"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Non-swimmers",
+            "Heart Conditions"
+          ],
+          "specialFacilities": [
+            "Dive Operators"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          81.4708,
+          6.1853
+        ]
+      },
+      "images": [
+        "https://example.com/great-basses.jpg"
+      ]
+    },
+    {
+      "name": "Mulkirigala Rock Temple",
+      "description": "Ancient Buddhist caves with panoramic coastal views.",
+      "placeType": [
+        "Cultural",
+        "Hiking"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 12,
+          "max": 65
+        },
+        "hobbies": [
+          "History",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues (steep climb)"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7686,
+          6.1008
+        ]
+      },
+      "images": [
+        "https://example.com/mulkirigala.jpg"
+      ]
+    },
+    {
+      "name": "Kalametiya Bird Sanctuary",
+      "description": "Mangrove forest teeming with migratory birds.",
+      "placeType": [
+        "Eco-Tourism",
+        "Wildlife"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 8,
+          "max": 70
+        },
+        "hobbies": [
+          "Birdwatching",
+          "Kayaking"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mosquito-Borne Illnesses"
+          ],
+          "specialFacilities": [
+            "Guided Boat Tours"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.8269,
+          6.1758
+        ]
+      },
+      "images": [
+        "https://example.com/kalametiya.jpg"
+      ]
+    },
+    {
+      "name": "Secret Beach (Mirissa)",
+      "description": "Hidden cove accessible via a rocky path, popular for privacy.",
+      "placeType": [
+        "Beach",
+        "Adventure"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 15,
+          "max": 60
+        },
+        "hobbies": [
+          "Snorkeling",
+          "Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4536,
+          5.9439
+        ]
+      },
+      "images": [
+        "https://example.com/secret-beach.jpg"
+      ]
+    },
+    {
+      "name": "Talpe Beach",
+      "description": "Serene beach with golden sand, ideal for long walks.",
+      "placeType": [
+        "Beach",
+        "Relaxation"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 70
+        },
+        "hobbies": [
+          "Walking",
+          "Reading"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.2936,
+          5.9933
+        ]
+      },
+      "images": [
+        "https://example.com/talpe.jpg"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e86f8e686cee655cda7adb"
+  },
+  "name": "Anuradhapura Ancient City Tour",
+  "description": "Explore the ancient capital of Sri Lanka with its magnificent dagobas, palaces and sacred sites",
+  "duration": 3,
+  "packageImage": "https://images.fineartamerica.com/images-medium-large-5/ruvanvelisaya-dagoba-in-anuradhapura-cinoby.jpg",
+  "district": "Anuradhapura",
+  "places": [
+    {
+      "name": "Sri Maha Bodhi",
+      "description": "The sacred fig tree grown from a cutting of the original Bodhi tree under which Buddha attained enlightenment",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3969,
+          8.3447
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Sri-Maha-Bodhi-Tree.jpg"
+      ]
+    },
+    {
+      "name": "Ruwanwelisaya",
+      "description": "One of the tallest ancient stupas in the world built by King Dutugemunu",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration",
+          "Walking"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Knee Pain",
+            "Back Pain"
+          ],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3966,
+          8.3503
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Ruwanwelisaya_1.jpg"
+      ]
+    },
+    {
+      "name": "Jetavanaramaya",
+      "description": "Massive brick stupa that was once the third tallest structure in the ancient world",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration",
+          "Walking"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Knee Pain",
+            "Back Pain"
+          ],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4028,
+          8.3519
+        ]
+      },
+      "images": [
+        "https://www.lankatourexperts.com/wp-content/uploads/2023/09/Jetavanaramaya-Stupa-Anuradhapura.webp"
+      ]
+    },
+    {
+      "name": "Abhayagiri Dagoba",
+      "description": "One of the most extensive ruins in the world and a center of Theravada Buddhism",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration",
+          "Walking"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Knee Pain",
+            "Back Pain"
+          ],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4072,
+          8.3556
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Abhayagiri-Dagoba.jpg"
+      ]
+    },
+    {
+      "name": "Thuparamaya",
+      "description": "The first stupa built in Sri Lanka after the introduction of Buddhism",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration",
+          "Walking"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3961,
+          8.3486
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Thuparamaya_1.jpg"
+      ]
+    },
+    {
+      "name": "Lovamahapaya",
+      "description": "Also known as the Brazen Palace, was a massive structure with 1600 stone pillars",
+      "placeType": [
+        "Historical",
+        "Educational"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Learning",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3964,
+          8.3478
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Lovamahapaya.jpg"
+      ]
+    },
+    {
+      "name": "Isurumuniya Temple",
+      "description": "Famous for its rock carvings including the Isurumuniya Lovers",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Knee Pain",
+            "Back Pain"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3936,
+          8.3439
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Isurumuniya_1.jpg"
+      ]
+    },
+    {
+      "name": "Mirisaweti Stupa",
+      "description": "Built by King Dutugemunu after placing the Buddha's relics in his scepter",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration",
+          "Walking"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3947,
+          8.3497
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Mirisaweti-Stupa.jpg"
+      ]
+    },
+    {
+      "name": "Kuttam Pokuna",
+      "description": "Twin ponds considered an engineering marvel of ancient Sri Lanka",
+      "placeType": [
+        "Historical",
+        "Scenic"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Relaxation",
+          "Walking"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4033,
+          8.3533
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Kuttam-Pokuna_1.jpg"
+      ]
+    },
+    {
+      "name": "Samadhi Buddha Statue",
+      "description": "One of the finest examples of ancient Sri Lankan sculpture",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4075,
+          8.3572
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Samadhi-Buddha-Statue.jpg"
+      ]
+    },
+    {
+      "name": "Ratnaprasada",
+      "description": "The Gem Palace with its beautifully carved guardstones and moonstones",
+      "placeType": [
+        "Historical",
+        "Educational"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Learning",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4039,
+          8.3542
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Ratnaprasada_1.jpg"
+      ]
+    },
+    {
+      "name": "Vessagiriya",
+      "description": "Ancient monastic complex with rock caves and inscriptions",
+      "placeType": [
+        "Historical",
+        "Nature"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Hiking",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Knee Pain",
+            "Back Pain"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3889,
+          8.3461
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Vessagiriya.jpg"
+      ]
+    },
+    {
+      "name": "Maha Vihara Museum",
+      "description": "Museum displaying artifacts from Anuradhapura's golden age",
+      "placeType": [
+        "Museum",
+        "Educational"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Learning",
+          "Sightseeing",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3962,
+          8.3472
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Maha-Vihara-Museum_1.jpg"
+      ]
+    },
+    {
+      "name": "Ranmasu Uyana",
+      "description": "Ancient royal pleasure gardens with star-shaped ponds",
+      "placeType": [
+        "Historical",
+        "Nature"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Walking",
+          "Relaxation"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3933,
+          8.3469
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Ranmasu-Uyana.jpg"
+      ]
+    },
+    {
+      "name": "Tissa Wewa",
+      "description": "Ancient reservoir built by King Devanampiya Tissa",
+      "placeType": [
+        "Historical",
+        "Scenic"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Walking",
+          "Relaxation",
+          "Bird Watching"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3908,
+          8.3408
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Tissa-Wewa_1.jpg"
+      ]
+    },
+    {
+      "name": "Basawakkulama Wewa",
+      "description": "The oldest reservoir in Anuradhapura built by King Pandukabhaya",
+      "placeType": [
+        "Historical",
+        "Scenic"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Walking",
+          "Relaxation",
+          "Bird Watching"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4003,
+          8.3417
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Basawakkulama-Wewa.jpg"
+      ]
+    },
+    {
+      "name": "Eth Pokuna",
+      "description": "The massive Elephant Pond used by monks in ancient times",
+      "placeType": [
+        "Historical",
+        "Educational"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Learning",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4058,
+          8.3547
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Eth-Pokuna_1.jpg"
+      ]
+    },
+    {
+      "name": "Lankarama",
+      "description": "Ancient stupa built by King Valagamba",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration",
+          "Walking"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4092,
+          8.3581
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Lankarama.jpg"
+      ]
+    },
+    {
+      "name": "Sela Cetiya",
+      "description": "Small but beautifully preserved stupa near the Abhayagiri complex",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.4069,
+          8.3564
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Sela-Cetiya_1.jpg"
+      ]
+    },
+    {
+      "name": "Anuradhapura Archaeological Museum",
+      "description": "Museum showcasing artifacts from Anuradhapura's ancient civilization",
+      "placeType": [
+        "Museum",
+        "Educational"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Learning",
+          "Sightseeing",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.3968,
+          8.3483
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Anuradhapura-Archaeological-Museum.jpg"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e7b8e24d627d2834e4d17a"
+  },
+  "name": "Kandy Heritage Tour",
+  "description": "Explore the cultural heart of Sri Lanka",
+  "duration": 3,
+  "packageImage": "https://simpsonsforest.com/wp-content/uploads/2024/01/800x750-21-e1704190327173.jpg",
+  "district": "Kandy",
+  "places": [
+    {
+      "name": "Temple of the Tooth",
+      "description": "Most sacred Buddhist temple in Sri Lanka",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Back Pain"
+          ],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6394,
+          7.2932
+        ]
+      },
+      "images": [
+        "https://lakshmisharath.com/wp-content/uploads/2022/09/Kandy-toothrelictemple-dawn.jpg"
+      ]
+    },
+    {
+      "name": "Royal Botanical Gardens",
+      "description": "Beautiful gardens with diverse plant species",
+      "placeType": [
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 0,
+          "max": 100
+        },
+        "hobbies": [
+          "Photography",
+          "Relaxation"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Severe Pollen Allergies"
+          ],
+          "specialFacilities": [
+            "Rest Areas",
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.5926,
+          7.2684
+        ]
+      },
+      "images": [
+        "https://www.greatgardensoftheworld.com/wp-content/uploads/2020/01/GALLERY_RBG-5.jpg"
+      ]
+    },
+    {
+      "name": "Udawattakele Forest Reserve",
+      "description": "A beautiful rainforest reserve in Kandy",
+      "placeType": [
+        "Nature",
+        "Adventure"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 70
+        },
+        "hobbies": [
+          "Hiking",
+          "Bird Watching"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Asthma"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.635,
+          7.2975
+        ]
+      },
+      "images": [
+        "https://www.royalkandyan.lk/wp-content/uploads/2023/06/Udawattakele-Sanctuary.jpg"
+      ]
+    },
+    {
+      "name": "Bahirawakanda Vihara Buddha Statue",
+      "description": "A giant Buddha statue overlooking Kandy",
+      "placeType": [
+        "Religious",
+        "Scenic"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "Sightseeing"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Heart Conditions",
+            "Mobility Issues"
+          ],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6386,
+          7.2906
+        ]
+      },
+      "images": [
+        "https://www.lovidhu.com/uploads/posts/2021/05//bahirawakanda-temple-sri-lanka-945x630.jpg"
+      ]
+    },
+    {
+      "name": "Ceylon Tea Museum",
+      "description": "A museum showcasing Sri Lanka's tea history",
+      "placeType": [
+        "Museum"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Tea Tasting",
+          "Learning"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Elevator Access",
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6381,
+          7.2556
+        ]
+      },
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8S2vRoHjmc3LKJEKMNGGRW4Epo5PpgLJ0zQ&s"
+      ]
+    },
+    {
+      "name": "Kandy Lake",
+      "description": "A scenic artificial lake in the heart of Kandy",
+      "placeType": [
+        "Scenic",
+        "Relaxation"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 0,
+          "max": 100
+        },
+        "hobbies": [
+          "Walking",
+          "Boating"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Swimming Difficulties"
+          ],
+          "specialFacilities": [
+            "Benches",
+            "Shaded Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6356,
+          7.2922
+        ]
+      },
+      "images": [
+        "https://www.kandyescapes.com/wp-content/uploads/2020/04/lake-mob.jpg"
+      ]
+    },
+    {
+      "name": "Hanthana Mountain Range",
+      "description": "A perfect spot for hiking and nature lovers",
+      "placeType": [
+        "Adventure",
+        "Nature"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 15,
+          "max": 60
+        },
+        "hobbies": [
+          "Hiking",
+          "Camping"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Heart Conditions",
+            "Respiratory Issues",
+            "Joint Problems"
+          ],
+          "specialFacilities": [
+            "First Aid Points"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.612,
+          7.2459
+        ]
+      },
+      "images": [
+        "https://www.kandyescapes.com/wp-content/uploads/2020/04/hanthana-mob.jpg"
+      ]
+    },
+    {
+      "name": "Commonwealth War Cemetery",
+      "description": "A historical cemetery from World War II",
+      "placeType": [
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 80
+        },
+        "hobbies": [
+          "History",
+          "Sightseeing"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access",
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.607,
+          7.2692
+        ]
+      },
+      "images": [
+        "https://www.andbeyond.com/wp-content/uploads/sites/5/kandy-war-cemetary-sri-lanka-graves-tombstones-commonwealth.jpg"
+      ]
+    },
+    {
+      "name": "Kandy View Point",
+      "description": "Panoramic view of Kandy city and surrounding hills",
+      "placeType": [
+        "Scenic"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "Sightseeing"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6421,
+          7.3012
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Kandy-View-Point.jpg"
+      ]
+    },
+    {
+      "name": "Kandy Arts & Crafts Center",
+      "description": "Showcasing traditional Sri Lankan arts and crafts",
+      "placeType": [
+        "Cultural",
+        "Shopping"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Shopping",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6375,
+          7.2943
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Kandy-Arts-Crafts_1.jpg"
+      ]
+    },
+    {
+      "name": "Kandy Garrison Cemetery",
+      "description": "Historic British colonial-era cemetery",
+      "placeType": [
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 80
+        },
+        "hobbies": [
+          "History",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6389,
+          7.2925
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Kandy-Garrison-Cemetery.jpg"
+      ]
+    },
+    {
+      "name": "Kandy City Center",
+      "description": "Modern shopping complex in the heart of Kandy",
+      "placeType": [
+        "Shopping",
+        "Entertainment"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 0,
+          "max": 100
+        },
+        "hobbies": [
+          "Shopping",
+          "Dining"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Elevator Access",
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6367,
+          7.2936
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Kandy-City-Center_1.jpg"
+      ]
+    },
+    {
+      "name": "Kandy National Museum",
+      "description": "Museum showcasing Kandyan era artifacts and history",
+      "placeType": [
+        "Museum",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Learning",
+          "History"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6392,
+          7.2935
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Kandy-National-Museum.jpg"
+      ]
+    },
+    {
+      "name": "Kandy Cultural Show",
+      "description": "Traditional Kandyan dance and music performance",
+      "placeType": [
+        "Cultural",
+        "Entertainment"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Cultural Exploration",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Hearing Impairments"
+          ],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6385,
+          7.2928
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Kandy-Cultural-Show_1.jpg"
+      ]
+    },
+    {
+      "name": "Gadaladeniya Temple",
+      "description": "Ancient Buddhist temple with unique architecture",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.5714,
+          7.2547
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Gadaladeniya-Temple.jpg"
+      ]
+    },
+    {
+      "name": "Lankatilaka Temple",
+      "description": "Magnificent ancient temple with impressive architecture",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.5697,
+          7.2536
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Lankatilaka-Temple_1.jpg"
+      ]
+    },
+    {
+      "name": "Embekka Devalaya",
+      "description": "Famous for its intricate wood carvings from the Kandyan era",
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.5667,
+          7.2525
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Embekka-Devalaya.jpg"
+      ]
+    },
+    {
+      "name": "Kandy Spice Garden",
+      "description": "Learn about Sri Lanka's famous spices and herbs",
+      "placeType": [
+        "Educational",
+        "Nature"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Learning",
+          "Nature Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Severe Allergies"
+          ],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6305,
+          7.2901
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Kandy-Spice-Garden_1.jpg"
+      ]
+    },
+    {
+      "name": "Kandy Market",
+      "description": "Vibrant local market with fresh produce and souvenirs",
+      "placeType": [
+        "Shopping",
+        "Cultural"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Shopping",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6372,
+          7.2948
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Kandy-Market.jpg"
+      ]
+    },
+    {
+      "name": "Kandy Railway Station",
+      "description": "Historic colonial-era railway station with scenic train rides",
+      "placeType": [
+        "Historical",
+        "Scenic"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "Sightseeing"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6339,
+          7.2933
+        ]
+      },
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Kandy-Railway-Station_1.jpg"
+      ]
+    },
+    {
+      "name": "Kandy War Cemetery",
+      "description": "Well-maintained Commonwealth war graves cemetery",
+      "placeType": [
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 80
+        },
+        "hobbies": [
+          "History",
+          "Photography"
+        ],
+        "climate": [
+          "Tropical"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6075,
+          7.2695
+        ]
+      },
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Kandy-War-Cemetery.jpg"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e8aa55bbe8620f44506827"
+  },
+  "name": "Nuwara Eliya Package",
+  "description": "Explore the 'Little England' of Sri Lanka with its tea plantations, waterfalls, and colonial charm",
+  "duration": 4,
+  "packageImage": "https://media.istockphoto.com/id/579253918/photo/female-worker-in-tea-plantations-of-sri-lanka.jpg?s=612x612&w=0&k=20&c=TH20917YspP0nXSvdP78hl7wA4UD9h6cV6SrxCcyBcE=",
+  "district": "Nuwara Eliya",
+  "places": [
+    {
+      "name": "Gregory Lake",
+      "description": "Scenic artificial lake offering boat rides and beautiful views",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Gregory-Lake.jpg"
+      ],
+      "placeType": [
+        "Scenic",
+        "Relaxation"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Boating",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7708,
+          6.9531
+        ]
+      }
+    },
+    {
+      "name": "Hakgala Botanical Garden",
+      "description": "Beautiful gardens with diverse plant species and stunning views",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Hakgala-Botanical-Garden_1.jpg"
+      ],
+      "placeType": [
+        "Nature",
+        "Garden"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 0,
+          "max": 100
+        },
+        "hobbies": [
+          "Photography",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Severe Pollen Allergies"
+          ],
+          "specialFacilities": [
+            "Rest Areas",
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.8911,
+          6.9108
+        ]
+      }
+    },
+    {
+      "name": "Seetha Amman Temple",
+      "description": "Colorful Hindu temple associated with the Ramayana epic",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Seetha-Amman-Temple.jpg"
+      ],
+      "placeType": [
+        "Religious",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Cultural Exploration",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7742,
+          6.9425
+        ]
+      }
+    },
+    {
+      "name": "Lovers Leap Waterfall",
+      "description": "Beautiful waterfall with a romantic legend behind its name",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Lovers-Leap-Waterfall_1.jpg"
+      ],
+      "placeType": [
+        "Nature",
+        "Scenic"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 70
+        },
+        "hobbies": [
+          "Hiking",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7833,
+          6.9667
+        ]
+      }
+    },
+    {
+      "name": "Victoria Park",
+      "description": "Beautifully maintained park with colorful flowers and birdwatching opportunities",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Victoria-Park.jpg"
+      ],
+      "placeType": [
+        "Park",
+        "Nature"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 0,
+          "max": 100
+        },
+        "hobbies": [
+          "Bird Watching",
+          "Relaxation"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Severe Pollen Allergies"
+          ],
+          "specialFacilities": [
+            "Rest Areas",
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7694,
+          6.9697
+        ]
+      }
+    },
+    {
+      "name": "Tea Factory & Tea Museum",
+      "description": "Learn about Sri Lanka's famous tea production process",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Tea-Factory-Museum_1.jpg"
+      ],
+      "placeType": [
+        "Educational",
+        "Museum"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Learning",
+          "Tea Tasting"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7689,
+          6.9686
+        ]
+      }
+    },
+    {
+      "name": "Single Tree Hill",
+      "description": "Panoramic viewpoint offering stunning views of Nuwara Eliya",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Single-Tree-Hill.jpg"
+      ],
+      "placeType": [
+        "Scenic",
+        "Viewpoint"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "Hiking"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Heart Conditions",
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7833,
+          6.9667
+        ]
+      }
+    },
+    {
+      "name": "Moon Plains",
+      "description": "High-altitude plains with stunning views and wildlife",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Moon-Plains_1.jpg"
+      ],
+      "placeType": [
+        "Nature",
+        "Wildlife"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 10,
+          "max": 70
+        },
+        "hobbies": [
+          "Photography",
+          "Nature Exploration"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Respiratory Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.8167,
+          6.9333
+        ]
+      }
+    },
+    {
+      "name": "St. Clair's Falls",
+      "description": "One of the widest waterfalls in Sri Lanka",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/St-Clairs-Falls.jpg"
+      ],
+      "placeType": [
+        "Nature",
+        "Waterfall"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.8167,
+          6.9333
+        ]
+      }
+    },
+    {
+      "name": "Ramboda Falls",
+      "description": "Impressive waterfall located near Nuwara Eliya",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Ramboda-Falls_1.jpg"
+      ],
+      "placeType": [
+        "Nature",
+        "Waterfall"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7,
+          7.05
+        ]
+      }
+    },
+    {
+      "name": "Nuwara Eliya Golf Club",
+      "description": "Historic 18-hole golf course with stunning mountain views",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Nuwara-Eliya-Golf-Club.jpg"
+      ],
+      "placeType": [
+        "Sports",
+        "Recreation"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 18,
+          "max": 80
+        },
+        "hobbies": [
+          "Golf",
+          "Relaxation"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": [
+            "Clubhouse",
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7692,
+          6.9708
+        ]
+      }
+    },
+    {
+      "name": "Galway's Land National Park",
+      "description": "Small national park known for its birdlife and nature trails",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Galway-Land-National-Park_1.jpg"
+      ],
+      "placeType": [
+        "Nature",
+        "Wildlife"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Bird Watching",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Walking Trails"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7667,
+          6.9667
+        ]
+      }
+    },
+    {
+      "name": "Nuwara Eliya Post Office",
+      "description": "Iconic colonial-era post office with British architecture",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Nuwara-Eliya-Post-Office.jpg"
+      ],
+      "placeType": [
+        "Historical",
+        "Architecture"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "History"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7694,
+          6.9697
+        ]
+      }
+    },
+    {
+      "name": "Devon Falls",
+      "description": "Beautiful waterfall named after a pioneer coffee planter",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Devon-Falls_1.jpg"
+      ],
+      "placeType": [
+        "Nature",
+        "Waterfall"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.6667,
+          6.9667
+        ]
+      }
+    },
+    {
+      "name": "Nuwara Eliya Race Course",
+      "description": "Horse racing track with colonial heritage",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Nuwara-Eliya-Race-Course.jpg"
+      ],
+      "placeType": [
+        "Sports",
+        "Historical"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Horse Racing",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Grandstands"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7694,
+          6.9697
+        ]
+      }
+    },
+    {
+      "name": "Pedro Tea Estate",
+      "description": "Working tea plantation with guided tours and tea tasting",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Pedro-Tea-Estate_1.jpg"
+      ],
+      "placeType": [
+        "Educational",
+        "Agriculture"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Tea Tasting",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7833,
+          6.9667
+        ]
+      }
+    },
+    {
+      "name": "Nuwara Eliya Market",
+      "description": "Vibrant local market selling fresh produce and flowers",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Nuwara-Eliya-Market.jpg"
+      ],
+      "placeType": [
+        "Shopping",
+        "Cultural"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Shopping",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Mobility Issues"
+          ],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7694,
+          6.9697
+        ]
+      }
+    },
+    {
+      "name": "Lake Gregory Boating",
+      "description": "Enjoy paddle boats and swan boats on the scenic lake",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Lake-Gregory-Boating_1.jpg"
+      ],
+      "placeType": [
+        "Recreation",
+        "Water Activities"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Boating",
+          "Relaxation"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [
+            "Swimming Difficulties"
+          ],
+          "specialFacilities": [
+            "Life Jackets"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7708,
+          6.9531
+        ]
+      }
+    },
+    {
+      "name": "Nuwara Eliya Strawberry Farms",
+      "description": "Visit strawberry farms and enjoy fresh strawberries",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Nuwara-Eliya-Strawberry-Farms.jpg"
+      ],
+      "placeType": [
+        "Agriculture",
+        "Food"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Food Tasting",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Rest Areas"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7833,
+          6.9667
+        ]
+      }
+    },
+    {
+      "name": "Nuwara Eliya Golf Course View Point",
+      "description": "Scenic viewpoint overlooking the golf course and town",
+      "images": [
+        "https://www.lovesrilanka.org/wp-content/uploads/2019/09/LSL_Nuwara-Eliya-Golf-Course-View-Point_1.jpg"
+      ],
+      "placeType": [
+        "Scenic",
+        "Viewpoint"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Photography",
+          "Relaxation"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": []
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7692,
+          6.9708
+        ]
+      }
+    },
+    {
+      "name": "Nuwara Eliya City Tour",
+      "description": "Explore the colonial architecture and landmarks of Nuwara Eliya",
+      "images": [
+        "https://www.srilankaview.com/wp-content/uploads/2019/12/Nuwara-Eliya-City-Tour.jpg"
+      ],
+      "placeType": [
+        "Historical",
+        "Cultural"
+      ],
+      "suitableFor": {
+        "ageRange": {
+          "min": 5,
+          "max": 80
+        },
+        "hobbies": [
+          "Sightseeing",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "healthConsiderations": {
+          "notRecommendedFor": [],
+          "specialFacilities": [
+            "Wheelchair Access"
+          ]
+        }
+      },
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.7694,
+          6.9697
+        ]
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-03-29T22:09:18.745Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-29T22:09:18.753Z"
+  },
+  "__v": 0
+}]
