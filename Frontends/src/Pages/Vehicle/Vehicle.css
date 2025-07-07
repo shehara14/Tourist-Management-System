@@ -1,0 +1,222 @@
+  .vehicle-form-container {
+    max-width: 750px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ebf3f2;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #8f8c8c;
+  }
+
+.vehicle-form-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.vehicle-form-group {
+  margin-bottom: 1.5rem;
+}
+
+.vehicle-form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.vehicle-form-group input,
+.vehicle-form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.vehicle-form-group input:focus,
+.vehicle-form-group select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+.vehicle-form-group input::placeholder {
+  color: #999;
+}
+
+.vehicle-submit-btn {
+  width: 200px;
+  padding: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vehicle-submit-btn:hover {
+  background-color: #357abd;
+}
+
+.vehicle-error-message {
+  color: #dc3545;
+  background-color: #f8d7da;
+  padding: 0.75rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Vehicle List Styles */
+.vehicle-list-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.vehicle-list-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.vehicle-table-container {
+  overflow-x: auto;
+}
+
+.vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.vehicle-table th,
+.vehicle-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.vehicle-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+}
+
+.vehicle-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+.status-badge {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status-badge.available {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-badge.not-available {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-badge.under-maintenance {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.vehicle-action-btn {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vehicle-action-btn.view {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.vehicle-action-btn.edit {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.vehicle-action-btn.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.vehicle-action-btn:hover {
+  opacity: 0.9;
+}
+
+.vehicle-loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .vehicle-form-container,
+  .vehicle-list-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .vehicle-form-title,
+  .vehicle-list-title {
+    font-size: 1.5rem;
+  }
+
+  .vehicle-form-group input,
+  .vehicle-form-group select {
+    padding: 0.5rem;
+  }
+
+  .vehicle-table th,
+  .vehicle-table td {
+    padding: 0.75rem;
+  }
+
+  .vehicle-action-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}
+
+.image-preview-container {
+  margin-top: 10px;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.image-preview {
+  width: 100%;
+  height: auto;
+  display: block;
+}

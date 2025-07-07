@@ -1,0 +1,256 @@
+.dp-form-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(to right, #bfd4d4 0%, #d3e0e3 100%);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border: 3px solid #8ba9b3;
+}
+
+.default-package-page {
+  min-height: 100vh;
+  padding: 2rem;
+  background: 
+    /* Your background image */
+    url('https://plus.unsplash.com/premium_photo-1663076518116-0f0637626edf?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dp-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.dp-form-title {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.dp-form-description {
+  color: #5d6778;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.dp-form-group {
+  margin-bottom: 1.5rem;
+}
+
+.dp-form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #1a202c;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Special styling for Vehicle Type and Child Seat labels */
+.dp-form-group label b,
+.dp-form-group > div > label {
+  color: #1a202c;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.dp-name-inputs {
+  display: flex;
+  gap: 1rem;
+}
+
+.dp-form-group input,
+.dp-form-group select,
+.dp-form-group textarea {
+  width: 730px;
+  padding: 0.8rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.dp-form-group input:focus,
+.dp-form-group select:focus,
+.dp-form-group textarea:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+  outline: none;
+}
+
+.dp-form-group input:hover,
+.dp-form-group select:hover,
+.dp-form-group textarea:hover {
+  border-color: #4a90e2;
+}
+
+.dp-radio-group {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.dp-radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: #1a202c;
+  font-size: 1rem;
+}
+
+.dp-checkbox-group {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.dp-checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: #1a202c;
+}
+
+.dp-button-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.dp-submit-btn {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(74, 144, 226, 0.2);
+}
+
+.dp-submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(74, 144, 226, 0.3);
+}
+
+.dp-dashboard-btn-secondary {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  color: #2c3e50;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dp-dashboard-btn-secondary:hover {
+  background: linear-gradient(135deg, #e4e8f0 0%, #d1d8e0 100%);
+  transform: translateY(-2px);
+}
+
+.dp-error-message {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #fde8e8;
+  border-radius: 6px;
+  border: 1px solid #fbd5d5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dp-form-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .dp-name-inputs {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .dp-radio-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .dp-button-group {
+    flex-direction: column;
+  }
+
+  .dp-submit-btn,
+  .dp-dashboard-btn-secondary {
+    width: 100%;
+  }
+}
+
+/* Custom styling for date and time inputs */
+input[type="date"],
+input[type="time"] {
+  cursor: pointer;
+}
+
+/* Custom styling for select dropdowns */
+select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1em;
+}
+
+/* Custom styling for textarea */
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Hover effects for interactive elements */
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #4a90e2;
+}
+
+.dp-form-group input[type="time"] {
+  width: 200px;
+  padding: 0.8rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+
+.dp-form-group input[type="time"]:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+  outline: none;
+}
+
+.dp-form-group input[type="time"]:hover {
+  border-color: #4a90e2;
+}

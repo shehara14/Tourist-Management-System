@@ -1,0 +1,516 @@
+{
+  "preferences": {
+    "age": 25,
+    "gender": "female",
+    "placeType": [
+      "Diving"
+    ],
+    "hobby": [
+      "Conservation",
+      "Whale Watching",
+      "Kayaking",
+      "Snorkeling"
+    ],
+    "climate": "Temperate",
+    "health_issues": [
+      "Mosquito-Borne Illnesses"
+    ]
+  },
+  "places": [
+    {
+      "id": "68022d77b0fc04d149ce3af2",
+      "name": "Gregory Lake",
+      "features": {
+        "place_type": [
+          "Scenic",
+          "Relaxation"
+        ],
+        "hobby": [
+          "Boating",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [],
+        "facilities": [
+          "Wheelchair Access"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3af4",
+      "name": "Hakgala Botanical Garden",
+      "features": {
+        "place_type": [
+          "Nature",
+          "Garden"
+        ],
+        "hobby": [
+          "Photography",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 0,
+        "age_max": 100,
+        "health_issues": [
+          "Severe Pollen Allergies"
+        ],
+        "facilities": [
+          "Rest Areas",
+          "Wheelchair Access"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3af6",
+      "name": "Seetha Amman Temple",
+      "features": {
+        "place_type": [
+          "Religious",
+          "Historical"
+        ],
+        "hobby": [
+          "Cultural Exploration",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [],
+        "facilities": [
+          "Wheelchair Access"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3af8",
+      "name": "Lovers Leap Waterfall",
+      "features": {
+        "place_type": [
+          "Nature",
+          "Scenic"
+        ],
+        "hobby": [
+          "Hiking",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 10,
+        "age_max": 70,
+        "health_issues": [
+          "Mobility Issues"
+        ],
+        "facilities": []
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3afa",
+      "name": "Victoria Park",
+      "features": {
+        "place_type": [
+          "Park",
+          "Nature"
+        ],
+        "hobby": [
+          "Bird Watching",
+          "Relaxation"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 0,
+        "age_max": 100,
+        "health_issues": [
+          "Severe Pollen Allergies"
+        ],
+        "facilities": [
+          "Rest Areas",
+          "Wheelchair Access"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3afc",
+      "name": "Tea Factory & Tea Museum",
+      "features": {
+        "place_type": [
+          "Educational",
+          "Museum"
+        ],
+        "hobby": [
+          "Learning",
+          "Tea Tasting"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [],
+        "facilities": [
+          "Wheelchair Access"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3afe",
+      "name": "Single Tree Hill",
+      "features": {
+        "place_type": [
+          "Scenic",
+          "Viewpoint"
+        ],
+        "hobby": [
+          "Photography",
+          "Hiking"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 10,
+        "age_max": 80,
+        "health_issues": [
+          "Heart Conditions",
+          "Mobility Issues"
+        ],
+        "facilities": []
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b00",
+      "name": "Moon Plains",
+      "features": {
+        "place_type": [
+          "Nature",
+          "Wildlife"
+        ],
+        "hobby": [
+          "Photography",
+          "Nature Exploration"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 10,
+        "age_max": 70,
+        "health_issues": [
+          "Respiratory Issues"
+        ],
+        "facilities": []
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b02",
+      "name": "St. Clair's Falls",
+      "features": {
+        "place_type": [
+          "Nature",
+          "Waterfall"
+        ],
+        "hobby": [
+          "Photography",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [
+          "Mobility Issues"
+        ],
+        "facilities": []
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b04",
+      "name": "Ramboda Falls",
+      "features": {
+        "place_type": [
+          "Nature",
+          "Waterfall"
+        ],
+        "hobby": [
+          "Photography",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [
+          "Mobility Issues"
+        ],
+        "facilities": []
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b06",
+      "name": "Nuwara Eliya Golf Club",
+      "features": {
+        "place_type": [
+          "Sports",
+          "Recreation"
+        ],
+        "hobby": [
+          "Golf",
+          "Relaxation"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 18,
+        "age_max": 80,
+        "health_issues": [
+          "Mobility Issues"
+        ],
+        "facilities": [
+          "Clubhouse",
+          "Rest Areas"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b08",
+      "name": "Galway's Land National Park",
+      "features": {
+        "place_type": [
+          "Nature",
+          "Wildlife"
+        ],
+        "hobby": [
+          "Bird Watching",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [],
+        "facilities": [
+          "Walking Trails"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b0a",
+      "name": "Nuwara Eliya Post Office",
+      "features": {
+        "place_type": [
+          "Historical",
+          "Architecture"
+        ],
+        "hobby": [
+          "Photography",
+          "History"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [],
+        "facilities": [
+          "Wheelchair Access"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b0c",
+      "name": "Devon Falls",
+      "features": {
+        "place_type": [
+          "Nature",
+          "Waterfall"
+        ],
+        "hobby": [
+          "Photography",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [
+          "Mobility Issues"
+        ],
+        "facilities": []
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b0e",
+      "name": "Nuwara Eliya Race Course",
+      "features": {
+        "place_type": [
+          "Sports",
+          "Historical"
+        ],
+        "hobby": [
+          "Horse Racing",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [],
+        "facilities": [
+          "Grandstands"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b10",
+      "name": "Pedro Tea Estate",
+      "features": {
+        "place_type": [
+          "Educational",
+          "Agriculture"
+        ],
+        "hobby": [
+          "Tea Tasting",
+          "Nature Walks"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [
+          "Mobility Issues"
+        ],
+        "facilities": [
+          "Rest Areas"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b12",
+      "name": "Nuwara Eliya Market",
+      "features": {
+        "place_type": [
+          "Shopping",
+          "Cultural"
+        ],
+        "hobby": [
+          "Shopping",
+          "Cultural Exploration"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [
+          "Mobility Issues"
+        ],
+        "facilities": []
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b14",
+      "name": "Lake Gregory Boating",
+      "features": {
+        "place_type": [
+          "Recreation",
+          "Water Activities"
+        ],
+        "hobby": [
+          "Boating",
+          "Relaxation"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [
+          "Swimming Difficulties"
+        ],
+        "facilities": [
+          "Life Jackets"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b16",
+      "name": "Nuwara Eliya Strawberry Farms",
+      "features": {
+        "place_type": [
+          "Agriculture",
+          "Food"
+        ],
+        "hobby": [
+          "Food Tasting",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [],
+        "facilities": [
+          "Rest Areas"
+        ]
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b18",
+      "name": "Nuwara Eliya Golf Course View Point",
+      "features": {
+        "place_type": [
+          "Scenic",
+          "Viewpoint"
+        ],
+        "hobby": [
+          "Photography",
+          "Relaxation"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [],
+        "facilities": []
+      }
+    },
+    {
+      "id": "68022d77b0fc04d149ce3b1a",
+      "name": "Nuwara Eliya City Tour",
+      "features": {
+        "place_type": [
+          "Historical",
+          "Cultural"
+        ],
+        "hobby": [
+          "Sightseeing",
+          "Photography"
+        ],
+        "climate": [
+          "Cool"
+        ],
+        "age_min": 5,
+        "age_max": 80,
+        "health_issues": [],
+        "facilities": [
+          "Wheelchair Access"
+        ]
+      }
+    }
+  ]
+}

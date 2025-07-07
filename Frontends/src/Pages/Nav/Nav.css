@@ -1,0 +1,61 @@
+/* General styling */
+.home-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: linear-gradient(to right, #5b4caf, #3d4c80);
+    padding: 15px 0;
+    margin: 0;
+    border-radius: 10px;
+  }
+  
+  /* Navigation items */
+  .home-li {
+    margin: 0 20px;
+    padding: 10px 20px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home-li h1 {
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect */
+  .home-li:hover h1 {
+    color: #FFD700;
+  }
+  
+  /* Underline effect */
+  .home-li::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: #FFD700;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+  }
+  
+  .home-li:hover::after {
+    width: 100%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .home-ul {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .home-li {
+      margin: 10px 0;
+    }
+  }

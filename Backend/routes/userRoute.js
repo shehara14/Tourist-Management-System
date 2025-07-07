@@ -3,6 +3,7 @@ const router = express.Router();
 const multer = require('multer');
 const path = require('path');
 const userAuthController = require('../controllers/UserAuthController');
+const upload = require('../config/multer');
 
 // Configure multer for file storage
 const storage = multer.diskStorage({
@@ -24,7 +25,7 @@ const fileFilter = (req, file, cb) => {
   }
 };
 
-const upload = multer({ 
+const uploadMulter = multer({ 
   storage: storage,
   fileFilter: fileFilter,
   limits: {
@@ -51,7 +52,7 @@ router.get('/users', userAuthController.getAllUsers);
 router.get('/users/:id', userAuthController.getUserById);
 
 // Update a user by ID route with optional file upload
-router.put('/users/:id', upload.single('profile_picture'), userAuthController.updateUser);
+router.put('/users/:id', uploadMulter.single('profile_picture'), userAuthController.updateUser);
 
 // Delete a user by ID route
 router.delete('/users/:id', userAuthController.deleteUser);
@@ -60,7 +61,7 @@ router.delete('/users/:id', userAuthController.deleteUser);
 router.get('/profile', userAuthController.getUserProfile);
 
 // Update user profile route with optional file upload
-router.put('/profile', upload.single('profile_picture'), userAuthController.updateProfile);
+router.put('/profile', uploadMulter.single('profile_picture'), userAuthController.updateProfile);
 
 // User analysis
 router.get('/analysis', userAuthController.userAnalysis);

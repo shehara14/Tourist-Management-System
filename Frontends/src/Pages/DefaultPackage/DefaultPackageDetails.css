@@ -1,0 +1,96 @@
+/* DefaultPackageDetails.css */
+
+.package-details-container {
+    margin: 0 auto;
+    padding: 32px 16px;
+    background: #dee5ec;
+    min-height: 100vh;
+}
+
+.package-details-container h1 {
+    text-align: center;
+    color: #1976d2;
+    margin-bottom: 30px;
+}
+
+.package-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.package-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.package-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.package-details p {
+    margin: 8px 0;
+    color: #333;
+}
+
+.package-details strong {
+    color: #1976d2;
+}
+
+.package-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.no-bookings {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.no-bookings h3 {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.no-bookings p {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    .package-details {
+        grid-template-columns: 1fr;
+    }
+    
+    .package-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .package-actions button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+  

@@ -46,8 +46,8 @@ const createAssignment = async (req, res) => {
         const savedAssignment = await newAssignment.save();
 
         // Update statuses
-        driver.isAvailable = false;
-        vehicle.isAvailable = false;
+        driver.isAvailable = true;
+        vehicle.isAvailable = true;
         await driver.save();
         await vehicle.save();
 

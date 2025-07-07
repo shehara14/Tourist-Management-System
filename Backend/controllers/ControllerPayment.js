@@ -1,5 +1,6 @@
 //backend/Controller/ControllerPayment.js
 const Payment = require("../models/ModelPayment");
+const client = require("../whatsappClient");
 
 const getAllPayment = async (req, res, next) => {
     
@@ -18,10 +19,8 @@ const getAllPayment = async (req, res, next) => {
     return res.status(200).json({payment});
 };
 
-//data insert
 const addPayment = async (req, res, next) => {
-
-    const { cardHolderName, cardNumber, expiryDate, cvv, cardType, cardBrand, amount, date, whatsAppNumber, status} = req.body;
+    const { cardHolderName, cardNumber, expiryDate, cvv, cardType, cardBrand, amount, date, whatsAppNumber, status } = req.body;
 
     let payment;
     try {
@@ -38,15 +37,60 @@ const addPayment = async (req, res, next) => {
             status
         });
         await payment.save();
+
+        // Send WhatsApp confirmation if payment is completed
+        if (status === 'Completed') {
+            try {
+                // Format WhatsApp number (remove leading 0, add country code like '94' for Sri Lanka)
+                const rawNumber = whatsAppNumber || "";
+                const formattedNumber = "94" + rawNumber.slice(1) + "@c.us";
+
+                // Create payment confirmation message
+                const message = `
+💳 *PAYMENT CONFIRMATION* 💳
+
+Dear ${cardHolderName},
+
+Thank you for your payment of $${amount}!
+
+*Payment Details:*
+🔹 Card: ${cardBrand} (•••• ${cardNumber.slice(-4)})
+🔹 Date: ${new Date(date).toLocaleDateString()}
+🔹 Status: Completed ✅
+
+If you have any questions, please contact our support.
+
+Thank you for choosing our service!
+
+Best regards,
+*WanderLanka Team*
+`;
+
+                // Send WhatsApp message
+                await client.sendMessage(formattedNumber, message);
+                console.log('WhatsApp confirmation sent successfully');
+            } catch (whatsappError) {
+                console.error('Error sending WhatsApp confirmation:', whatsappError);
+                // Don't fail the payment if WhatsApp fails
+            }
+        }
+
+        return res.status(200).json({ 
+            success: true,
+            payment,
+            message: status === 'completed' ? 
+                   'Payment added and confirmation sent' : 
+                   'Payment added successfully'
+        });
+
     } catch (err) {
-        console.log(err);
+        console.error('Error adding payment:', err);
+        return res.status(500).json({ 
+            success: false,
+            message: "Error adding payment",
+            error: err.message 
+        });
     }
-    //not found
-    if (!payment) {
-        return res.status(404).json({message: "No payment found"});
-    }
-    //Display
-    return res.status(200).json({payment});
 };
 
 //Get by id
@@ -127,35 +171,60 @@ const deletePayment = async (req, res, next) => {
 };
 
 // Send WhatsApp message
-const sendWhatsAppMessage = async (req, res, next) => {
-    const { whatsAppNumber, cardHolderName, amount } = req.body;
+const sendPaymentConfirmation = async (req, res, next) => {
+    const { id } = req.params;
     
     try {
-        // Format the phone number to include country code if not present
-        const formattedNumber = whatsAppNumber.startsWith('+') ? whatsAppNumber : `+94${whatsAppNumber}`;
-        
-        // Create the message
-        const message = `Dear ${cardHolderName},\n\nYour payment of ${amount} has been successfully processed.\n\nThank you for your business!\n\nBest regards,\nPayment System`;
+        const payment = await Payment.findById(id);
+        if (!payment) {
+            return res.status(404).json({ message: "Payment not found" });
+        }
 
-        // Here you would integrate with a WhatsApp API service
-        // For example, using Twilio:
-        // const client = require('twilio')(accountSid, authToken);
-        // await client.messages.create({
-        //     body: message,
-        //     from: 'whatsapp:+14155238886', // Your Twilio WhatsApp number
-        //     to: `whatsapp:${formattedNumber}`
-        // });
+        // Format WhatsApp number (remove leading 0, add country code like '94' for Sri Lanka)
+        const rawNumber = payment.whatsAppNumber || "";
+        const formattedNumber = "94" + rawNumber.slice(1) + "@c.us";
 
-        // For now, we'll just log the message
-        console.log('WhatsApp message to be sent:', {
-            to: formattedNumber,
-            message: message
+        // Create detailed payment confirmation message
+        const message = `
+💳 *PAYMENT CONFIRMATION* 💳
+
+Dear ${payment.cardHolderName},
+
+Thank you for your payment!
+
+*PAYMENT DETAILS:*
+🆔 Transaction ID: ${payment._id.toString().slice(-6)}
+💳 Card: ${payment.cardBrand} (•••• ${payment.cardNumber.slice(-4)})
+💰 Amount: $${payment.amount.toFixed(2)}
+📅 Date: ${new Date(payment.date).toLocaleDateString()}
+📱 WhatsApp: ${payment.whatsAppNumber}
+
+*STATUS:* ${payment.status === 'completed' ? 'Completed ✅' : 
+           payment.status === 'pending' ? 'Pending ⏳' : 'Failed ❌'}
+
+If you have any questions about this payment, please contact our support team at (+94) 77 123 4567.
+
+Thank you for your business!
+
+Best regards,
+*WanderLanka Payment System*
+`;
+
+        // Send WhatsApp message
+        await client.sendMessage(formattedNumber, message);
+
+        return res.status(200).json({ 
+            success: true, 
+            message: "Payment confirmation sent successfully" 
         });
 
-        return res.status(200).json({ message: 'WhatsApp message sent successfully' });
     } catch (err) {
-        console.error('Error sending WhatsApp message:', err);
-        return res.status(500).json({ message: 'Error sending WhatsApp message' });
+        console.error('Error sending payment confirmation:', err);
+        return res.status(500).json({ 
+            success: false, 
+            message: 'Error sending payment confirmation',
+            error: err.message 
+        });
     }
 };
 
@@ -164,4 +233,4 @@ exports.addPayment = addPayment;
 exports.getPaymentById = getPaymentById;
 exports.updatePayment = updatePayment;
 exports.deletePayment = deletePayment;
-exports.sendWhatsAppMessage = sendWhatsAppMessage;
+exports.sendPaymentConfirmation = sendPaymentConfirmation;
